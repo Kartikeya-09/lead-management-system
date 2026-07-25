@@ -304,9 +304,19 @@ export default function HomePage() {
             </div>
 
             <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-sm text-slate-500">
-                © 2026 SalesCRM. All rights reserved.
-              </p>
+              <div className="flex flex-col md:flex-row items-center gap-4">
+                <p className="text-sm text-slate-500">
+                  © 2026 SalesCRM. All rights reserved.
+                </p>
+                <a 
+                  href="https://digitalheroesco.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-sm text-cyan-400 smooth-transition hover:text-cyan-300 font-medium"
+                >
+                  Built for Digital Heroes Training Task
+                </a>
+              </div>
               <div className="flex items-center gap-6">
                 <a href="#" className="text-slate-500 smooth-transition hover:text-cyan-300">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
